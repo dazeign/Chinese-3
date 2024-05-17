@@ -33,7 +33,7 @@ export default function Storyboard1() {
       </div>
       <img
         className="w-[1500px] h-[1001px] left-[-226px] top-[617px] absolute"
-        src="https://via.placeholder.com/1500x1001"
+        src="https://res.cloudinary.com/dlq9o1289/image/upload/v1715970605/g2242_a9uvvl.png"
       />
       <div className="w-[1443px] h-[962px] left-[-1px] top-[7794px] absolute">
         <img
@@ -248,7 +248,26 @@ export default function Storyboard1() {
         </div>
         <div className="origin-top-left -rotate-90 w-[235.31px] h-[305.96px] left-[941.68px] top-[1938.63px] absolute"></div>
       </div>
-      <div className="w-[155px] h-[36.25px] left-[76px] top-[19.88px] absolute" />
+      <div className="w-[155px] h-[36.25px] left-[76px] top-[19.88px] absolute">
+        <Image
+          alt={"Pasted Image"}
+          fetchpriority={undefined}
+          loading={"lazy"}
+          width={310}
+          height={74}
+          decoding={"async"}
+          data-nimg={"1"}
+          className={"w-full h-full"}
+          style={{
+            color: "transparent",
+          }}
+          sizes={undefined}
+          srcSet={undefined}
+          src={"/images/tempo-image-20240517T184146655Z.png"}
+          onLoad={() => console.log("onLoad")}
+          onError={() => console.log("onError")}
+        />
+      </div>
       <div className="w-[254px] left-[1110px] top-[19px] absolute justify-between items-start inline-flex">
         <div className="px-3.5 py-2 rounded-[100px] border border-yellow-950 justify-start items-center gap-[7px] flex">
           <div className="w-6 h-6 relative">
