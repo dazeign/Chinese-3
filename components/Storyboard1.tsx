@@ -54,7 +54,7 @@ export default function Storyboard1() {
       <div className="w-[762px] left-[512px] top-[1780px] absolute text-yellow-950 text-[62px] font-light font-['Agrandir'] leading-[72px] tracking-[2.48px]">
         The Finest Chinese Cuisine, Kind to You and the Earth.
       </div>
-      <div className="w-[82px] h-[82px] left-[1316px] top-[679px] absolute">
+      <div className="w-[82px] h-[82px] top-[679px] absolute left-[1292px]">
         <div className="w-[82px] h-[82px] left-0 top-0 absolute rounded-full border-2 border-yellow-950" />
         <div className="w-[42px] h-[42px] left-[20px] top-[20px] absolute">
           <Image
@@ -367,24 +367,6 @@ export default function Storyboard1() {
       <img
         className="w-[444px] h-[665.33px] left-0 top-[1857px] absolute"
         src="https://via.placeholder.com/444x665"
-      />
-      <Image
-        alt={"Pasted Image"}
-        fetchpriority={undefined}
-        loading={"lazy"}
-        width={96}
-        height={96}
-        decoding={"async"}
-        data-nimg={"1"}
-        className={"w-full h-full"}
-        style={{
-          color: "transparent",
-        }}
-        sizes={undefined}
-        srcSet={undefined}
-        src={"/images/tempo-image-20240517T145342791Z.png"}
-        onLoad={() => console.log("onLoad")}
-        onError={() => console.log("onError")}
       />
     </div>
   );
