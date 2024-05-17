@@ -18,7 +18,7 @@ export default function Storyboard1() {
           Delightful
         </div>
       </div>
-      <div className="h-[276px] left-[512px] top-[2066px] absolute flex-col justify-start items-start gap-[72px] inline-flex">
+      <div className="h-[276px] left-[512px] top-[2066px] absolute flex-col justify-start items-start gap-[72px] inline-flex w-[846] max-w-7xl">
         <div className="self-stretch text-yellow-950 text-[22px] font-normal font-['Agrandir'] leading-[42px] tracking-wide">
           Indulge in a culinary journey that nourishes both body and planet. Our
           commitment to sustainable sourcing, fresh ingredients, and authentic
@@ -80,7 +80,7 @@ export default function Storyboard1() {
       <div className="w-72 h-[232.21px] left-[76px] top-[1474.17px] absolute">
         <img
           className="w-72 h-[232.21px] left-0 top-0 absolute"
-          src="https://via.placeholder.com/288x232"
+          src="https://res.cloudinary.com/dlq9o1289/image/upload/v1715973034/Group_48099715_tcmpet.png"
         />
         <div className="w-[71.56px] h-[71.56px] left-[108.22px] top-[80.08px] absolute">
           <div className="w-[71.56px] h-[71.56px] left-0 top-0 absolute bg-white/opacity-25 rounded-full border-2 border-white" />
