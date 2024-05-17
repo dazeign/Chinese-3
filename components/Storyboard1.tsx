@@ -56,7 +56,26 @@ export default function Storyboard1() {
       </div>
       <div className="w-[82px] h-[82px] left-[1316px] top-[679px] absolute">
         <div className="w-[82px] h-[82px] left-0 top-0 absolute rounded-full border-2 border-yellow-950" />
-        <div className="w-[42px] h-[42px] left-[20px] top-[20px] absolute" />
+        <div className="w-[42px] h-[42px] left-[20px] top-[20px] absolute">
+          <Image
+            alt={"Pasted Image"}
+            fetchpriority={undefined}
+            loading={"lazy"}
+            width={84}
+            height={84}
+            decoding={"async"}
+            data-nimg={"1"}
+            className={"w-full h-full"}
+            style={{
+              color: "transparent",
+            }}
+            sizes={undefined}
+            srcSet={undefined}
+            src={"/images/tempo-image-20240517T185612127Z.png"}
+            onLoad={() => console.log("onLoad")}
+            onError={() => console.log("onError")}
+          />
+        </div>
       </div>
       <div className="w-72 h-[232.21px] left-[76px] top-[1474.17px] absolute">
         <img
@@ -321,7 +340,26 @@ export default function Storyboard1() {
         </div>
       </div>
       <div className="w-[265px] h-[265px] left-[275px] top-[428px] absolute">
-        <div className="w-[265px] h-[265px] left-0 top-0 absolute"></div>
+        <div className="w-[265px] h-[265px] left-0 top-0 absolute">
+          <Image
+            alt={"Pasted Image"}
+            fetchpriority={undefined}
+            loading={"lazy"}
+            width={537}
+            height={537}
+            decoding={"async"}
+            data-nimg={"1"}
+            className={"w-full h-full"}
+            style={{
+              color: "transparent",
+            }}
+            sizes={undefined}
+            srcSet={undefined}
+            src={"/images/tempo-image-20240517T185719089Z.png"}
+            onLoad={() => console.log("onLoad")}
+            onError={() => console.log("onError")}
+          />
+        </div>
         <div className="w-[265px] left-0 top-[189px] absolute justify-center items-center inline-flex">
           <div className="w-[265px] h-[265px] relative"></div>
         </div>
