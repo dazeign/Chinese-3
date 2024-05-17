@@ -285,7 +285,7 @@ export default function Storyboard1() {
               }}
               sizes={undefined}
               srcSet={undefined}
-              src={"/images/tempo-image-20240517T144154725Z.png"}
+              src={"/images/tempo-image-20240517T185344261Z.png"}
               onLoad={() => console.log("onLoad")}
               onError={() => console.log("onError")}
             />
@@ -295,7 +295,26 @@ export default function Storyboard1() {
           </div>
         </div>
         <div className="px-3.5 py-2 rounded-[100px] border border-yellow-950 justify-start items-center gap-[7px] flex">
-          <div className="w-6 h-6 relative"></div>
+          <div className="w-6 h-6 relative">
+            <Image
+              alt={"Pasted Image"}
+              fetchpriority={undefined}
+              loading={"lazy"}
+              width={96}
+              height={96}
+              decoding={"async"}
+              data-nimg={"1"}
+              className={"w-full h-full"}
+              style={{
+                color: "transparent",
+              }}
+              sizes={undefined}
+              srcSet={undefined}
+              src={"/images/tempo-image-20240517T184327200Z.png"}
+              onLoad={() => console.log("onLoad")}
+              onError={() => console.log("onError")}
+            />
+          </div>
           <div className="text-yellow-950 text-[22px] font-normal font-['Agrandir'] leading-normal tracking-wide">
             Menu
           </div>
