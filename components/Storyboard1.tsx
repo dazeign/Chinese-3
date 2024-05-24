@@ -97,7 +97,7 @@ export default function Storyboard1() {
           </div>
         </div>
       </div>
-      <div className="w-[180px] h-[180px] p-2.5 left-[708px] top-[2296px] absolute rounded-[100px] border border-yellow-950 justify-center items-center gap-2.5 inline-flex">
+      <div className="w-[180px] h-[180px] p-2.5 top-[2296px] absolute rounded-[100px] border border-yellow-950 justify-center items-center gap-2.5 inline-flex left-[720] left-[720px]">
         <div className="text-yellow-950 text-[100px] font-light font-['Agrandir'] leading-[112px] tracking-widest">
           1
         </div>
